@@ -1,11 +1,11 @@
 import React from 'react';
 
-const posts = () => {
+function page() {
     return (
         <div>
-            All post
+
         </div>
     );
-};
+}
 
-export default posts;
+export default page;
