@@ -8,6 +8,9 @@ const postPage = async ({ params }) => {
         <div className='m-2'>
             <h2 className='my-2'>{post.title}</h2>
             <p>{post.body}</p>
+            <dir>
+                <h1 className='text-lg font-bold text-red-300'>Jakaria</h1>
+            </dir>
         </div>
     );
 };
